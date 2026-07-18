@@ -1,20 +1,123 @@
-# AI-Powered Urban Air Quality Intelligence Platform
+# 🌍 AI-Powered Urban Air Quality Intelligence Platform
 
-## What this is
-A multi-agent AI system for smart-city air quality intervention, built on real CPCB
-(Central Pollution Control Board) air quality data for Delhi and Mumbai.
+An AI-powered multi-agent system that analyzes urban air quality, forecasts AQI, identifies pollution sources, recommends enforcement actions, and generates multilingual health advisories using real-world CPCB air quality data.
 
-## The 6 chained agents
-1. **Data pipeline** (`src/01_clean_data.py`) - cleans real CPCB data
-2. **Forecasting Agent** (`src/02_forecast_model.py`) - 1-3 day AQI forecast, beats naive baseline
-3. **Source Attribution Agent** (`src/03_source_attribution.py`) - chemistry-based pollution source scoring
-4. **Enforcement Agent** (`src/04_enforcement_agent.py`) - ranked, evidence-backed action list
-5. **Citizen Advisory Agent** (`src/05_citizen_advisory.py`) - multilingual health alerts (Hindi/Marathi), 3 channels
-6. **Dashboard** (`src/dashboard.py`) - interactive Streamlit UI tying everything together
+Built for the ET AI Hackathon 2026.
 
-## How to run locally
+---
+
+## 🚀 Features
+
+- 📊 AQI Forecasting (1–3 days ahead)
+- 🌫️ Pollution Source Attribution
+- 🚔 AI-based Enforcement Recommendations
+- 🩺 Multilingual Citizen Health Advisories
+- 🗺️ Interactive Streamlit Dashboard
+- 📍 Ward-level visualization (simulated for demonstration)
+
+---
+
+# 🧠 Multi-Agent Pipeline
+
+The project consists of six interconnected AI agents:
+
+### 1️⃣ Data Pipeline
+`src/01_clean_data.py`
+
+- Cleans and preprocesses CPCB air quality data.
+- Handles missing values and feature preparation.
+
+---
+
+### 2️⃣ Forecasting Agent
+`src/02_forecast_model.py`
+
+- Predicts AQI for the next 1–3 days.
+- Outperforms a naive forecasting baseline.
+
+---
+
+### 3️⃣ Source Attribution Agent
+`src/03_source_attribution.py`
+
+- Estimates dominant pollution sources using pollutant chemistry.
+- Generates explainable source contribution scores.
+
+---
+
+### 4️⃣ Geographic Layer
+`src/06_add_geo.py`
+
+- Adds ward-level geographic information for visualization.
+
+---
+
+### 5️⃣ Enforcement Agent
+`src/04_enforcement_agent.py`
+
+- Produces ranked enforcement recommendations.
+- Prioritizes interventions based on forecast severity.
+
+---
+
+### 6️⃣ Citizen Advisory Agent
+`src/05_citizen_advisory.py`
+
+- Generates health advisories.
+- Supports English, Hindi, and Marathi.
+- Provides recommendations for multiple communication channels.
+
+---
+
+### Dashboard
+`src/dashboard.py`
+
+Interactive Streamlit dashboard integrating all agents into a single user interface.
+
+---
+
+# 📁 Project Structure
+
+```
+aqi_project/
+│
+├── data/
+├── models/
+├── outputs/
+├── src/
+│   ├── 01_clean_data.py
+│   ├── 02_forecast_model.py
+│   ├── 03_source_attribution.py
+│   ├── 04_enforcement_agent.py
+│   ├── 05_citizen_advisory.py
+│   ├── 06_add_geo.py
+│   └── dashboard.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/AI-Powered-Urban-Air-Quality-Intelligence-Platform.git
+```
+
+Install dependencies
+
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run the Project
+
+```bash
 python src/01_clean_data.py
 python src/02_forecast_model.py
 python src/03_source_attribution.py
@@ -23,22 +126,75 @@ python src/04_enforcement_agent.py
 python src/05_citizen_advisory.py
 streamlit run src/dashboard.py
 ```
-Then open the URL it prints (usually http://localhost:8501).
 
-## How to deploy for free (so you have a live link for your submission)
-1. Push this folder to a public GitHub repo
-2. Go to https://share.streamlit.io/ and sign in with GitHub
-3. Click "New app" → select your repo → set main file path to `src/dashboard.py`
-4. Deploy - you'll get a public URL like `yourapp.streamlit.app`
+The dashboard will be available at:
 
-## Important documented limitations (for judges)
-- Ward/zone-level breakdown is a **simulated layer** (real ward-level sensor data isn't public);
-  city-level source attribution is chemistry-derived from real pollutant readings.
-- Forecast is **city-level**, applied uniformly across wards (true 1km-grid forecasting needs
-  gridded meteorological/traffic data not available in this dataset).
-- Citizen advisory translations are **hand-written**, not machine-translated, since mistranslated
-  health guidance carries real risk.
-- Data covers 2015-2020 (Delhi) / 2018-2020 (Mumbai) - the most recent public CPCB dataset available.
+```
+http://localhost:8501
+```
 
-## Data source
-Real Air Quality Data in India (CPCB), via Kaggle: rohanrao/air-quality-data-in-india
+---
+
+# ☁️ Deployment
+
+Deploy the project for free using Streamlit Community Cloud.
+
+1. Push the project to GitHub.
+2. Sign in to Streamlit Community Cloud.
+3. Create a new app.
+4. Select your GitHub repository.
+5. Set the main file to:
+
+```
+src/dashboard.py
+```
+
+6. Deploy and obtain a public URL.
+
+---
+
+# 📊 Dataset
+
+This project uses the **Air Quality Data in India** dataset published by the Central Pollution Control Board (CPCB).
+
+Source:
+
+https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+
+---
+
+# ⚠️ Limitations
+
+- Ward-level visualization is simulated because public ward-level sensor data is unavailable.
+- Source attribution is estimated using pollutant chemistry rather than direct emissions inventories.
+- Forecasts are generated at the city level and mapped uniformly across wards.
+- Fine-grained forecasting would require high-resolution meteorological and traffic datasets.
+- Health advisory translations are manually curated to reduce the risk of inaccurate medical guidance.
+- Dataset coverage:
+  - Delhi: 2015–2020
+  - Mumbai: 2018–2020
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Streamlit
+- Plotly
+- GeoPandas
+
+---
+
+# 👨‍💻 Author
+
+Aryan Baranwal
+
+MCA (AI & ML), Galgotias University
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
