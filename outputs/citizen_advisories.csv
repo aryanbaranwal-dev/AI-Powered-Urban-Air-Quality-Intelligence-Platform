@@ -1,0 +1,121 @@
+City,Ward,AQI,Category,Language,Channel,Message
+Delhi,Anand Vihar,128.3,Moderate,English,Mobile App,"📱 Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues.
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Anand Vihar,128.3,Moderate,Hindi,Mobile App,"📱 हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Anand Vihar,128.3,Moderate,English,Public Display,"AQI ALERT - Anand Vihar - Moderate
+Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues."
+Delhi,Anand Vihar,128.3,Moderate,Hindi,Public Display,"AQI ALERT - Anand Vihar - Moderate
+हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।"
+Delhi,Anand Vihar,128.3,Moderate,English,IVR (voice call script),"This is an automated air quality alert for Anand Vihar. Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues. Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Anand Vihar,128.3,Moderate,Hindi,IVR (voice call script),"This is an automated air quality alert for Anand Vihar. हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें। Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Okhla Industrial,137.8,Moderate,English,Mobile App,"📱 Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues.
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Okhla Industrial,137.8,Moderate,Hindi,Mobile App,"📱 हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Okhla Industrial,137.8,Moderate,English,Public Display,"AQI ALERT - Okhla Industrial - Moderate
+Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues."
+Delhi,Okhla Industrial,137.8,Moderate,Hindi,Public Display,"AQI ALERT - Okhla Industrial - Moderate
+हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।"
+Delhi,Okhla Industrial,137.8,Moderate,English,IVR (voice call script),"This is an automated air quality alert for Okhla Industrial. Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues. Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Okhla Industrial,137.8,Moderate,Hindi,IVR (voice call script),"This is an automated air quality alert for Okhla Industrial. हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें। Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Dwarka,85.9,Satisfactory,English,Mobile App,"📱 Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion.
+No additional precautions needed for vulnerable groups today."
+Delhi,Dwarka,85.9,Satisfactory,Hindi,Mobile App,"📱 आज हवा की गुणवत्ता संतोषजनक है।
+No additional precautions needed for vulnerable groups today."
+Delhi,Dwarka,85.9,Satisfactory,English,Public Display,"AQI ALERT - Dwarka - Satisfactory
+Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion."
+Delhi,Dwarka,85.9,Satisfactory,Hindi,Public Display,"AQI ALERT - Dwarka - Satisfactory
+आज हवा की गुणवत्ता संतोषजनक है।"
+Delhi,Dwarka,85.9,Satisfactory,English,IVR (voice call script),This is an automated air quality alert for Dwarka. Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion. No additional precautions needed for vulnerable groups today.
+Delhi,Dwarka,85.9,Satisfactory,Hindi,IVR (voice call script),This is an automated air quality alert for Dwarka. आज हवा की गुणवत्ता संतोषजनक है। No additional precautions needed for vulnerable groups today.
+Delhi,RK Puram,109.8,Moderate,English,Mobile App,"📱 Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues.
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,RK Puram,109.8,Moderate,Hindi,Mobile App,"📱 हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,RK Puram,109.8,Moderate,English,Public Display,"AQI ALERT - RK Puram - Moderate
+Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues."
+Delhi,RK Puram,109.8,Moderate,Hindi,Public Display,"AQI ALERT - RK Puram - Moderate
+हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।"
+Delhi,RK Puram,109.8,Moderate,English,IVR (voice call script),"This is an automated air quality alert for RK Puram. Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues. Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,RK Puram,109.8,Moderate,Hindi,IVR (voice call script),"This is an automated air quality alert for RK Puram. हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें। Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Rohini,114.3,Moderate,English,Mobile App,"📱 Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues.
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Rohini,114.3,Moderate,Hindi,Mobile App,"📱 हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।
+Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Rohini,114.3,Moderate,English,Public Display,"AQI ALERT - Rohini - Moderate
+Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues."
+Delhi,Rohini,114.3,Moderate,Hindi,Public Display,"AQI ALERT - Rohini - Moderate
+हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें।"
+Delhi,Rohini,114.3,Moderate,English,IVR (voice call script),"This is an automated air quality alert for Rohini. Sensitive groups may experience mild discomfort. Consider reducing prolonged outdoor exertion if you have breathing issues. Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Rohini,114.3,Moderate,Hindi,IVR (voice call script),"This is an automated air quality alert for Rohini. हवा की गुणवत्ता मध्यम है। संवेदनशील लोग सावधान रखें। Children, elderly, and people with asthma/heart conditions: reduce outdoor play/exercise time today."
+Delhi,Lodhi Road,82.2,Satisfactory,English,Mobile App,"📱 Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion.
+No additional precautions needed for vulnerable groups today."
+Delhi,Lodhi Road,82.2,Satisfactory,Hindi,Mobile App,"📱 आज हवा की गुणवत्ता संतोषजनक है।
+No additional precautions needed for vulnerable groups today."
+Delhi,Lodhi Road,82.2,Satisfactory,English,Public Display,"AQI ALERT - Lodhi Road - Satisfactory
+Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion."
+Delhi,Lodhi Road,82.2,Satisfactory,Hindi,Public Display,"AQI ALERT - Lodhi Road - Satisfactory
+आज हवा की गुणवत्ता संतोषजनक है।"
+Delhi,Lodhi Road,82.2,Satisfactory,English,IVR (voice call script),This is an automated air quality alert for Lodhi Road. Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion. No additional precautions needed for vulnerable groups today.
+Delhi,Lodhi Road,82.2,Satisfactory,Hindi,IVR (voice call script),This is an automated air quality alert for Lodhi Road. आज हवा की गुणवत्ता संतोषजनक है। No additional precautions needed for vulnerable groups today.
+Mumbai,Andheri East,63.5,Satisfactory,English,Mobile App,"📱 Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Andheri East,63.5,Satisfactory,Marathi,Mobile App,"📱 आज हवेची गुणवत्ता समाधानकारक आहे.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Andheri East,63.5,Satisfactory,English,Public Display,"AQI ALERT - Andheri East - Satisfactory
+Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion."
+Mumbai,Andheri East,63.5,Satisfactory,Marathi,Public Display,"AQI ALERT - Andheri East - Satisfactory
+आज हवेची गुणवत्ता समाधानकारक आहे."
+Mumbai,Andheri East,63.5,Satisfactory,English,IVR (voice call script),This is an automated air quality alert for Andheri East. Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion. No additional precautions needed for vulnerable groups today.
+Mumbai,Andheri East,63.5,Satisfactory,Marathi,IVR (voice call script),This is an automated air quality alert for Andheri East. आज हवेची गुणवत्ता समाधानकारक आहे. No additional precautions needed for vulnerable groups today.
+Mumbai,Chembur,67.2,Satisfactory,English,Mobile App,"📱 Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Chembur,67.2,Satisfactory,Marathi,Mobile App,"📱 आज हवेची गुणवत्ता समाधानकारक आहे.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Chembur,67.2,Satisfactory,English,Public Display,"AQI ALERT - Chembur - Satisfactory
+Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion."
+Mumbai,Chembur,67.2,Satisfactory,Marathi,Public Display,"AQI ALERT - Chembur - Satisfactory
+आज हवेची गुणवत्ता समाधानकारक आहे."
+Mumbai,Chembur,67.2,Satisfactory,English,IVR (voice call script),This is an automated air quality alert for Chembur. Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion. No additional precautions needed for vulnerable groups today.
+Mumbai,Chembur,67.2,Satisfactory,Marathi,IVR (voice call script),This is an automated air quality alert for Chembur. आज हवेची गुणवत्ता समाधानकारक आहे. No additional precautions needed for vulnerable groups today.
+Mumbai,Bandra West,42.4,Good,English,Mobile App,"📱 Air quality is good. Enjoy normal outdoor activities.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Bandra West,42.4,Good,Marathi,Mobile App,"📱 हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Bandra West,42.4,Good,English,Public Display,"AQI ALERT - Bandra West - Good
+Air quality is good. Enjoy normal outdoor activities."
+Mumbai,Bandra West,42.4,Good,Marathi,Public Display,"AQI ALERT - Bandra West - Good
+हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा."
+Mumbai,Bandra West,42.4,Good,English,IVR (voice call script),This is an automated air quality alert for Bandra West. Air quality is good. Enjoy normal outdoor activities. No additional precautions needed for vulnerable groups today.
+Mumbai,Bandra West,42.4,Good,Marathi,IVR (voice call script),This is an automated air quality alert for Bandra West. हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा. No additional precautions needed for vulnerable groups today.
+Mumbai,Powai,49.5,Good,English,Mobile App,"📱 Air quality is good. Enjoy normal outdoor activities.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Powai,49.5,Good,Marathi,Mobile App,"📱 हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Powai,49.5,Good,English,Public Display,"AQI ALERT - Powai - Good
+Air quality is good. Enjoy normal outdoor activities."
+Mumbai,Powai,49.5,Good,Marathi,Public Display,"AQI ALERT - Powai - Good
+हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा."
+Mumbai,Powai,49.5,Good,English,IVR (voice call script),This is an automated air quality alert for Powai. Air quality is good. Enjoy normal outdoor activities. No additional precautions needed for vulnerable groups today.
+Mumbai,Powai,49.5,Good,Marathi,IVR (voice call script),This is an automated air quality alert for Powai. हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा. No additional precautions needed for vulnerable groups today.
+Mumbai,Kurla,59.4,Satisfactory,English,Mobile App,"📱 Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Kurla,59.4,Satisfactory,Marathi,Mobile App,"📱 आज हवेची गुणवत्ता समाधानकारक आहे.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Kurla,59.4,Satisfactory,English,Public Display,"AQI ALERT - Kurla - Satisfactory
+Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion."
+Mumbai,Kurla,59.4,Satisfactory,Marathi,Public Display,"AQI ALERT - Kurla - Satisfactory
+आज हवेची गुणवत्ता समाधानकारक आहे."
+Mumbai,Kurla,59.4,Satisfactory,English,IVR (voice call script),This is an automated air quality alert for Kurla. Air quality is acceptable. Unusually sensitive people should consider limiting prolonged outdoor exertion. No additional precautions needed for vulnerable groups today.
+Mumbai,Kurla,59.4,Satisfactory,Marathi,IVR (voice call script),This is an automated air quality alert for Kurla. आज हवेची गुणवत्ता समाधानकारक आहे. No additional precautions needed for vulnerable groups today.
+Mumbai,Colaba,37.8,Good,English,Mobile App,"📱 Air quality is good. Enjoy normal outdoor activities.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Colaba,37.8,Good,Marathi,Mobile App,"📱 हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा.
+No additional precautions needed for vulnerable groups today."
+Mumbai,Colaba,37.8,Good,English,Public Display,"AQI ALERT - Colaba - Good
+Air quality is good. Enjoy normal outdoor activities."
+Mumbai,Colaba,37.8,Good,Marathi,Public Display,"AQI ALERT - Colaba - Good
+हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा."
+Mumbai,Colaba,37.8,Good,English,IVR (voice call script),This is an automated air quality alert for Colaba. Air quality is good. Enjoy normal outdoor activities. No additional precautions needed for vulnerable groups today.
+Mumbai,Colaba,37.8,Good,Marathi,IVR (voice call script),This is an automated air quality alert for Colaba. हवेची गुणवत्ता चांगली आहे. सामान्य बाहेरील कामे करा. No additional precautions needed for vulnerable groups today.

@@ -1,0 +1,13 @@
+Rank,City,Ward,Ward_Type,Current_AQI,Forecast_Tomorrow_AQI,Trend,Dominant_Source,Source_Confidence_Pct,Enforceable,Recommended_Action,Priority_Score
+1,Delhi,Okhla Industrial,industrial,137.8,139.2,Worsening,Industrial,29.3,True,Inspect industrial stack emissions; verify pollution-control equipment is operational,51.5
+2,Delhi,Anand Vihar,traffic_hub,128.3,139.2,Worsening,Construction/Dust,30.0,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",48.0
+3,Delhi,Rohini,construction,114.3,139.2,Worsening,Construction/Dust,48.4,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",42.7
+4,Delhi,RK Puram,mixed,109.8,139.2,Worsening,Construction/Dust,32.4,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",41.0
+5,Delhi,Dwarka,residential,85.9,139.2,Worsening,Construction/Dust,30.9,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",32.1
+6,Delhi,Lodhi Road,green_belt,82.2,139.2,Worsening,Construction/Dust,28.3,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",30.7
+7,Mumbai,Chembur,industrial,67.2,62.0,Worsening,Industrial,46.2,True,Inspect industrial stack emissions; verify pollution-control equipment is operational,25.1
+8,Mumbai,Andheri East,traffic_hub,63.5,62.0,Worsening,Construction/Dust,29.6,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",23.7
+9,Mumbai,Kurla,construction,59.4,62.0,Worsening,Construction/Dust,47.1,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",22.2
+10,Mumbai,Powai,mixed,49.5,62.0,Worsening,Industrial,31.8,True,Inspect industrial stack emissions; verify pollution-control equipment is operational,18.5
+11,Mumbai,Bandra West,residential,42.4,62.0,Worsening,Construction/Dust,31.3,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",15.8
+12,Mumbai,Colaba,green_belt,37.8,62.0,Worsening,Construction/Dust,28.9,True,"Inspect active construction sites for dust-control compliance (water sprinkling, covered material, anti-smog guns)",14.1

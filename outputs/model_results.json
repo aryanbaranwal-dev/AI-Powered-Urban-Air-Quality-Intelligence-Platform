@@ -1,0 +1,44 @@
+{
+  "Delhi": {
+    "n_train": 1603,
+    "n_test": 284,
+    "horizons": {
+      "1": {
+        "baseline_rmse": 73.46,
+        "model_rmse": 66.23,
+        "improvement_pct": 9.8
+      },
+      "2": {
+        "baseline_rmse": 88.06,
+        "model_rmse": 78.43,
+        "improvement_pct": 10.9
+      },
+      "3": {
+        "baseline_rmse": 95.02,
+        "model_rmse": 81.35,
+        "improvement_pct": 14.4
+      }
+    }
+  },
+  "Mumbai": {
+    "n_train": 629,
+    "n_test": 112,
+    "horizons": {
+      "1": {
+        "baseline_rmse": 19.15,
+        "model_rmse": 17.8,
+        "improvement_pct": 7.0
+      },
+      "2": {
+        "baseline_rmse": 23.1,
+        "model_rmse": 20.92,
+        "improvement_pct": 9.4
+      },
+      "3": {
+        "baseline_rmse": 25.45,
+        "model_rmse": 23.57,
+        "improvement_pct": 7.4
+      }
+    }
+  }
+}

@@ -1,238 +1,87 @@
-# 🌍 AI-Powered Urban Air Quality Intelligence Platform
+# AI-Powered Urban Air Quality Intelligence Platform
 
-An AI-powered multi-agent system for urban air quality analysis, forecasting, pollution source attribution, enforcement recommendations, and multilingual citizen health advisories using real-world air quality data from the Central Pollution Control Board (CPCB).
+## What this is
+A multi-agent AI system for smart-city air quality intervention, built on real CPCB
+(Central Pollution Control Board) air quality data for Delhi and Mumbai.
 
-Developed as part of the **ET AI Hackathon 2026**.
+## The 6 chained agents
+1. **Data pipeline** (`src/01_clean_data.py`) - cleans real CPCB data
+2. **Forecasting Agent** (`src/02_forecast_model.py`) - 1-3 day AQI forecast, beats naive baseline
+3. **Source Attribution Agent** (`src/03_source_attribution.py`) - chemistry-based pollution source scoring
+4. **Enforcement Agent** (`src/04_enforcement_agent.py`) - ranked, evidence-backed action list
+5. **Citizen Advisory Agent** (`src/05_citizen_advisory.py`) - multilingual health alerts (Hindi/Marathi), 3 channels
+6. **Dashboard** (`app/`) - modern glassmorphic AI-SaaS Streamlit UI tying everything together
 
----
-
-## ✨ Features
-
-- 📈 **1–3 Day AQI Forecasting**
-- 🌫️ **Pollution Source Attribution**
-- 🚔 **Evidence-Based Enforcement Recommendations**
-- 🩺 **Multilingual Citizen Health Advisories (English, Hindi & Marathi)**
-- 🗺️ **Interactive Streamlit Dashboard**
-- 📍 **Ward-Level Visualization (Simulation for Demonstration)**
-
----
-
-# 🏗️ System Architecture
-
-> *(Add your architecture diagram here after uploading it.)*
-
-```markdown
-![Architecture](docs/architecture_diagram.png)
+## Multi-agent architecture (`agents/`)
+The pollution-intelligence logic is also packaged as **5 independent, structured-JSON agents**
+plus a Coordinator that orchestrates them — separate from the original `src/0X_*.py` offline
+pipeline scripts, so any single agent can be swapped, retrained or deployed standalone:
 ```
-
----
-
-# 🤖 Multi-Agent Pipeline
-
-## 1️⃣ Data Pipeline
-**File:** `src/01_clean_data.py`
-
-- Cleans and preprocesses real CPCB air quality data.
-- Handles missing values and prepares features for downstream agents.
-
----
-
-## 2️⃣ Forecasting Agent
-**File:** `src/02_forecast_model.py`
-
-- Predicts AQI for the next **1–3 days**.
-- Evaluates performance against a naïve forecasting baseline.
-
----
-
-## 3️⃣ Source Attribution Agent
-**File:** `src/03_source_attribution.py`
-
-- Estimates dominant pollution sources using pollutant chemistry.
-- Produces explainable source contribution scores.
-
----
-
-## 4️⃣ Geographic Layer
-**File:** `src/06_add_geo.py`
-
-- Adds ward-level geographic mapping for dashboard visualization.
-
----
-
-## 5️⃣ Enforcement Agent
-**File:** `src/04_enforcement_agent.py`
-
-- Generates ranked enforcement recommendations.
-- Prioritizes interventions based on predicted pollution severity.
-
----
-
-## 6️⃣ Citizen Advisory Agent
-**File:** `src/05_citizen_advisory.py`
-
-- Produces multilingual health advisories.
-- Supports English, Hindi, and Marathi.
-- Generates recommendations for multiple communication channels.
-
----
-
-## 📊 Dashboard
-**File:** `src/dashboard.py`
-
-An interactive Streamlit dashboard integrating all AI agents into a single user interface for visualization and decision support.
-
----
-
-# 📂 Project Structure
-
-```text
-aqi_project/
-│
-├── data/
-├── docs/
-├── models/
-├── outputs/
-├── src/
-│   ├── 01_clean_data.py
-│   ├── 02_forecast_model.py
-│   ├── 03_source_attribution.py
-│   ├── 04_enforcement_agent.py
-│   ├── 05_citizen_advisory.py
-│   ├── 06_add_geo.py
-│   └── dashboard.py
-│
-├── README.md
-├── LICENSE
-└── requirements.txt
+agents/
+  base_agent.py         # shared AgentMessage JSON envelope every agent speaks
+  aqi_utils.py           # pure-python (no Streamlit) AQI band helper
+  forecast_agent.py      # 24h/48h/72h AQI + Explainable AI (SHAP-like) per prediction
+  attribution_agent.py   # Traffic / Industry / Dust / Biomass Burning / Construction, with confidence
+  enforcement_agent.py   # ranked inspection priorities
+  advisory_agent.py      # multilingual (EN/HI/MR) health advisories, generated live for any AQI band
+  decision_agent.py      # merges all of the above into one intervention report
+  coordinator.py         # Coordinator.run_all(city) -> merged JSON from all 5 agents
 ```
+Every prediction from the Forecast Agent includes: `prediction`, `confidence_score`, `top_factors`
+(signed, ranked feature contributions), `reason`, `expected_trend`, `recommended_intervention` — 
+rendered as glass "Explainable AI" cards on both the **AQI Forecast** page and the new
+**Multi-Agent AI Console** page (`app/sections/ai_agents.py`), which also shows each agent's raw
+JSON message and the Decision Agent's final report.
 
----
-
-# ⚙️ Installation
-
-Clone the repository
-
+Quick standalone test (no Streamlit needed):
 ```bash
-git clone https://github.com/<your-username>/AI-Powered-Urban-Air-Quality-Intelligence-Platform.git
+python -c "
+from agents.coordinator import Coordinator
+# see agents/coordinator.py docstring for the run_all() signature
+"
 ```
 
-Move into the project directory
-
-```bash
-cd AI-Powered-Urban-Air-Quality-Intelligence-Platform
+## Dashboard architecture (`app/`)
+The dashboard was redesigned as a modular, production-ready Streamlit app:
 ```
+main.py                    # entry point — run this with `streamlit run main.py`
+app/
+  config.py                # nav items, AQI color bands, source colors
+  theme.py                 # global CSS (dark glassmorphism) + shared Plotly dark template
+  data_loader.py           # cached data/model loading + feature engineering
+  components/              # navbar, sidebar, metric cards, charts, alerts, live clock
+  sections/                # one file per page: overview, forecast, attribution,
+                            # enforcement, advisory, geospatial, multi_city, settings
+```
+The original single-file `src/dashboard.py` is kept for reference but is superseded by `app/`.
 
-Install dependencies
-
+## How to run locally
 ```bash
 pip install -r requirements.txt
-```
-
----
-
-# ▶️ Running the Project
-
-Execute the pipeline in the following order:
-
-```bash
 python src/01_clean_data.py
 python src/02_forecast_model.py
 python src/03_source_attribution.py
 python src/06_add_geo.py
 python src/04_enforcement_agent.py
 python src/05_citizen_advisory.py
-streamlit run src/dashboard.py
+streamlit run main.py
 ```
+Then open the URL it prints (usually http://localhost:8501).
 
-Open the dashboard in your browser:
+## How to deploy for free (so you have a live link for your submission)
+1. Push this folder to a public GitHub repo
+2. Go to https://share.streamlit.io/ and sign in with GitHub
+3. Click "New app" → select your repo → set main file path to `main.py`
+4. Deploy - you'll get a public URL like `yourapp.streamlit.app`
 
-```
-http://localhost:8501
-```
+## Important documented limitations (for judges)
+- Ward/zone-level breakdown is a **simulated layer** (real ward-level sensor data isn't public);
+  city-level source attribution is chemistry-derived from real pollutant readings.
+- Forecast is **city-level**, applied uniformly across wards (true 1km-grid forecasting needs
+  gridded meteorological/traffic data not available in this dataset).
+- Citizen advisory translations are **hand-written**, not machine-translated, since mistranslated
+  health guidance carries real risk.
+- Data covers 2015-2020 (Delhi) / 2018-2020 (Mumbai) - the most recent public CPCB dataset available.
 
----
-
-# 🚀 Deployment
-
-You can deploy this project for free using **Streamlit Community Cloud**.
-
-1. Push the project to GitHub.
-2. Sign in to Streamlit Community Cloud.
-3. Create a new application.
-4. Select your repository.
-5. Set the entry file as:
-
-```text
-src/dashboard.py
-```
-
-6. Deploy the application.
-
----
-
-# 📊 Dataset
-
-This project uses the **Air Quality Data in India** dataset published by the **Central Pollution Control Board (CPCB)**.
-
-**Source:**
-
-https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
-
----
-
-# ⚠️ Limitations
-
-- Ward-level visualization is simulated because public ward-level sensor data is unavailable.
-- Pollution source attribution is estimated from pollutant chemistry rather than direct emissions inventories.
-- AQI forecasts are generated at the city level and visualized uniformly across wards.
-- High-resolution forecasting would require additional meteorological, satellite, and traffic datasets.
-- Citizen health advisories are manually curated to reduce the risk of inaccurate machine-translated health guidance.
-- Dataset coverage:
-  - **Delhi:** 2015–2020
-  - **Mumbai:** 2018–2020
-
----
-
-# 🛠️ Tech Stack
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- Plotly
-- GeoPandas
-- Machine Learning
-
----
-
-# 🔮 Future Improvements
-
-- Real-time AQI monitoring using live APIs.
-- Integration with weather and traffic datasets.
-- Deep learning-based forecasting models.
-- Mobile application for citizen advisories.
-- GIS-based high-resolution pollution heatmaps.
-- IoT sensor integration for ward-level monitoring.
-
----
-
-# 📜 License
-
-This project is licensed under the **Apache License 2.0**.
-
-See the [LICENSE](LICENSE) file for details.
-
----
-
-# 👨‍💻 Author
-
-**Aryan Baranwal**
-
-MCA (Artificial Intelligence & Machine Learning)  
-Galgotias University, Greater Noida
-
----
-
-⭐ If you found this project useful, consider giving it a star!
+## Data source
+Real Air Quality Data in India (CPCB), via Kaggle: rohanrao/air-quality-data-in-india

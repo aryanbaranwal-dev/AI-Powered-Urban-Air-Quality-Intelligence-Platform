@@ -1,0 +1,306 @@
+city,layer,name,ward_type,lat,lon,aqi,pm25,pm10,main_source,confidence,recommended_action,aqi_band,weight
+Delhi,hotspot,Anand Vihar,traffic_hub,28.71306,77.26004,201.7,123.7,201.4,Construction/Dust,0.89,Mandate green netting and wheel-washing at site exit,Poor,
+Delhi,hotspot,Okhla,industrial,28.66274,77.30548,220.7,134.3,197.7,Traffic,0.81,Synchronize traffic signals to reduce idling emissions,Poor,
+Delhi,hotspot,RK Puram,mixed,28.67664,77.14293,165.9,103.5,141.1,Industrial,0.85,Mandate shift to piped natural gas from coal/furnace oil,Moderate,
+Delhi,hotspot,Dwarka,residential,28.71118,77.22292,192.2,112.6,188.1,Industrial,0.85,Mandate shift to piped natural gas from coal/furnace oil,Moderate,
+Delhi,hotspot,Rohini,construction,28.56083,77.24475,302.2,194.5,280.2,Construction/Dust,0.9,Inspect for Construction & Demolition waste management compliance,Very Poor,
+Delhi,hotspot,ITO,green_belt,28.54702,77.10895,88.2,50.4,76.5,Industrial,0.92,Conduct stack emission audit; verify online continuous emission monitors,Satisfactory,
+Delhi,hotspot,Mundka,traffic_hub,28.68038,77.1154,186.3,119.1,181.7,Secondary/Photochemical,0.9,Issue public health advisory for outdoor exertion during midday peak,Moderate,
+Delhi,hotspot,Wazirpur,industrial,28.70769,77.24224,214.1,139.7,194.5,Secondary/Photochemical,0.75,Increase green cover / urban forestry to aid pollutant dispersion,Poor,
+Delhi,hotspot,Ashok Vihar,mixed,28.66441,77.23926,148.6,91.7,146.5,Secondary/Photochemical,0.89,Increase green cover / urban forestry to aid pollutant dispersion,Moderate,
+Delhi,hotspot,Najafgarh,residential,28.56024,77.1079,159.7,93.2,148.4,Secondary/Photochemical,0.81,Issue public health advisory for outdoor exertion during midday peak,Moderate,
+Delhi,hotspot,Bawana,construction,28.61579,77.29866,256.7,156.0,228.1,Construction/Dust,0.77,Mandate green netting and wheel-washing at site exit,Poor,
+Delhi,hotspot,Punjabi Bagh,mixed,28.56894,77.12221,170.4,97.3,153.4,Industrial,0.89,Mandate shift to piped natural gas from coal/furnace oil,Moderate,
+Delhi,monitoring_station,CAAQMS Station 1,sensor,28.56658,77.10761,169.3,96.2,158.7,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,monitoring_station,CAAQMS Station 2,sensor,28.48571,77.21179,195.4,112.6,175.5,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,monitoring_station,CAAQMS Station 3,sensor,28.51506,77.16678,178.5,113.1,183.1,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,monitoring_station,CAAQMS Station 4,sensor,28.57844,77.33166,191.9,107.5,176.3,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,monitoring_station,CAAQMS Station 5,sensor,28.55796,77.08859,187.4,130.9,170.4,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,monitoring_station,CAAQMS Station 6,sensor,28.52157,77.20626,197.0,129.0,188.8,—,,Live continuous ambient air quality monitoring station,Moderate,
+Delhi,industrial,Delhi Industrial Estate 1,industrial,28.53519,77.27746,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Delhi,industrial,Delhi Industrial Estate 2,industrial,28.57423,77.24869,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Delhi,industrial,Delhi Industrial Estate 3,industrial,28.65396,77.21973,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Delhi,industrial,Delhi Industrial Estate 4,industrial,28.49099,77.30959,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Delhi,construction,Active Construction Site 1,construction,28.57089,77.13376,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Delhi,construction,Active Construction Site 2,construction,28.50369,77.23081,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Delhi,construction,Active Construction Site 3,construction,28.65652,77.09298,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Delhi,construction,Active Construction Site 4,construction,28.6168,77.14336,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Delhi,construction,Active Construction Site 5,construction,28.64874,77.13085,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Delhi,school,Delhi Public School 1,sensitive_receptor,28.65209,77.18635,165.4,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Delhi,school,Delhi Public School 2,sensitive_receptor,28.69884,77.28447,176.9,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Delhi,school,Delhi Public School 3,sensitive_receptor,28.56549,77.241,190.6,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Delhi,school,Delhi Public School 4,sensitive_receptor,28.61983,77.15737,217.6,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Delhi,school,Delhi Public School 5,sensitive_receptor,28.53252,77.28844,191.4,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Delhi,hospital,Delhi General Hospital 1,sensitive_receptor,28.58171,77.17884,204.5,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Delhi,hospital,Delhi General Hospital 2,sensitive_receptor,28.65909,77.28842,191.2,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Delhi,hospital,Delhi General Hospital 3,sensitive_receptor,28.64231,77.12583,193.6,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Delhi,hospital,Delhi General Hospital 4,sensitive_receptor,28.54623,77.28871,192.3,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Delhi,traffic,Traffic Congestion Point,traffic,28.48522,77.12081,,,,Traffic,,,,15.9
+Delhi,traffic,Traffic Congestion Point,traffic,28.66907,77.14068,,,,Traffic,,,,49.4
+Delhi,traffic,Traffic Congestion Point,traffic,28.65488,77.22676,,,,Traffic,,,,79.6
+Delhi,traffic,Traffic Congestion Point,traffic,28.73688,77.18121,,,,Traffic,,,,14.2
+Delhi,traffic,Traffic Congestion Point,traffic,28.6339,77.20705,,,,Traffic,,,,64.0
+Delhi,traffic,Traffic Congestion Point,traffic,28.65172,77.12505,,,,Traffic,,,,57.0
+Delhi,traffic,Traffic Congestion Point,traffic,28.73444,77.30078,,,,Traffic,,,,37.2
+Delhi,traffic,Traffic Congestion Point,traffic,28.52797,77.22377,,,,Traffic,,,,24.8
+Delhi,traffic,Traffic Congestion Point,traffic,28.6438,77.33641,,,,Traffic,,,,51.7
+Delhi,traffic,Traffic Congestion Point,traffic,28.66512,77.26165,,,,Traffic,,,,28.1
+Delhi,traffic,Traffic Congestion Point,traffic,28.70934,77.31644,,,,Traffic,,,,14.8
+Delhi,traffic,Traffic Congestion Point,traffic,28.66641,77.28591,,,,Traffic,,,,58.4
+Delhi,traffic,Traffic Congestion Point,traffic,28.63425,77.08834,,,,Traffic,,,,35.9
+Delhi,traffic,Traffic Congestion Point,traffic,28.49183,77.08871,,,,Traffic,,,,59.8
+Delhi,traffic,Traffic Congestion Point,traffic,28.6841,77.13511,,,,Traffic,,,,12.6
+Delhi,traffic,Traffic Congestion Point,traffic,28.67268,77.33272,,,,Traffic,,,,52.9
+Delhi,traffic,Traffic Congestion Point,traffic,28.59803,77.0994,,,,Traffic,,,,38.1
+Delhi,traffic,Traffic Congestion Point,traffic,28.52457,77.14406,,,,Traffic,,,,51.8
+Delhi,traffic,Traffic Congestion Point,traffic,28.73216,77.27085,,,,Traffic,,,,79.0
+Delhi,traffic,Traffic Congestion Point,traffic,28.57645,77.27604,,,,Traffic,,,,70.0
+Delhi,traffic,Traffic Congestion Point,traffic,28.61172,77.2021,,,,Traffic,,,,90.7
+Delhi,traffic,Traffic Congestion Point,traffic,28.64902,77.09078,,,,Traffic,,,,15.0
+Delhi,traffic,Traffic Congestion Point,traffic,28.65516,77.12136,,,,Traffic,,,,74.6
+Delhi,traffic,Traffic Congestion Point,traffic,28.72836,77.22862,,,,Traffic,,,,49.5
+Delhi,traffic,Traffic Congestion Point,traffic,28.72868,77.17939,,,,Traffic,,,,27.0
+Mumbai,hotspot,Andheri East,traffic_hub,19.14518,72.82971,201.1,133.4,188.6,Traffic,0.87,Deploy traffic police for congestion smoothing during peak hours,Poor,
+Mumbai,hotspot,Chembur,industrial,19.08655,72.86086,234.2,148.4,211.8,Industrial,0.77,Mandate shift to piped natural gas from coal/furnace oil,Poor,
+Mumbai,hotspot,Worli,mixed,19.15485,72.86208,128.5,81.2,118.4,Secondary/Photochemical,0.9,Issue public health advisory for outdoor exertion during midday peak,Moderate,
+Mumbai,hotspot,Bandra Kurla Complex,residential,19.16302,72.85332,134.1,82.4,124.4,Traffic,0.87,Synchronize traffic signals to reduce idling emissions,Moderate,
+Mumbai,hotspot,Powai,construction,18.98617,72.90024,150.8,95.0,142.0,Construction/Dust,0.97,Inspect for Construction & Demolition waste management compliance,Moderate,
+Mumbai,hotspot,Mazgaon,green_belt,18.99746,72.93523,82.6,52.5,81.6,Secondary/Photochemical,0.9,Issue public health advisory for outdoor exertion during midday peak,Satisfactory,
+Mumbai,hotspot,Kurla,traffic_hub,19.01731,72.89559,156.7,99.9,146.0,Secondary/Photochemical,0.89,Increase green cover / urban forestry to aid pollutant dispersion,Moderate,
+Mumbai,hotspot,Malad,industrial,19.07197,72.85086,150.1,86.0,122.2,Industrial,0.78,Flag unit for CPCB show-cause notice if emissions exceed norms,Moderate,
+Mumbai,hotspot,Vikhroli,mixed,18.97839,72.79384,187.3,120.7,177.2,Traffic,0.83,Synchronize traffic signals to reduce idling emissions,Moderate,
+Mumbai,hotspot,Dadar,residential,18.98424,72.88394,56.4,38.6,50.2,Industrial,0.85,Mandate shift to piped natural gas from coal/furnace oil,Satisfactory,
+Mumbai,hotspot,Borivali,construction,19.08108,72.90617,238.2,143.1,227.8,Industrial,0.84,Conduct stack emission audit; verify online continuous emission monitors,Poor,
+Mumbai,hotspot,Sion,mixed,19.17691,72.78043,132.0,77.4,126.1,Construction/Dust,0.73,Mandate green netting and wheel-washing at site exit,Moderate,
+Mumbai,monitoring_station,CAAQMS Station 1,sensor,19.01514,72.84139,129.9,70.6,136.7,—,,Live continuous ambient air quality monitoring station,Moderate,
+Mumbai,monitoring_station,CAAQMS Station 2,sensor,19.01645,72.78233,83.1,61.6,59.1,—,,Live continuous ambient air quality monitoring station,Satisfactory,
+Mumbai,monitoring_station,CAAQMS Station 3,sensor,19.18499,72.76921,148.5,98.3,133.5,—,,Live continuous ambient air quality monitoring station,Moderate,
+Mumbai,monitoring_station,CAAQMS Station 4,sensor,19.14818,72.8726,96.0,55.8,102.7,—,,Live continuous ambient air quality monitoring station,Satisfactory,
+Mumbai,monitoring_station,CAAQMS Station 5,sensor,19.16158,72.89566,151.5,91.0,155.8,—,,Live continuous ambient air quality monitoring station,Moderate,
+Mumbai,monitoring_station,CAAQMS Station 6,sensor,19.18342,72.89984,151.8,99.7,147.8,—,,Live continuous ambient air quality monitoring station,Moderate,
+Mumbai,industrial,Mumbai Industrial Estate 1,industrial,19.03936,72.80003,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Mumbai,industrial,Mumbai Industrial Estate 2,industrial,18.98751,72.80313,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Mumbai,industrial,Mumbai Industrial Estate 3,industrial,19.00842,72.78987,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Mumbai,industrial,Mumbai Industrial Estate 4,industrial,19.18947,72.9548,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Mumbai,construction,Active Construction Site 1,construction,18.96726,72.82218,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Mumbai,construction,Active Construction Site 2,construction,18.96132,72.87726,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Mumbai,construction,Active Construction Site 3,construction,19.07029,72.95723,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Mumbai,construction,Active Construction Site 4,construction,19.02987,72.95363,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Mumbai,construction,Active Construction Site 5,construction,19.18831,72.77892,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Mumbai,school,Mumbai Public School 1,sensitive_receptor,19.13436,72.89569,77.6,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Satisfactory,
+Mumbai,school,Mumbai Public School 2,sensitive_receptor,19.13293,72.90557,126.4,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Mumbai,school,Mumbai Public School 3,sensitive_receptor,19.13701,72.95833,147.9,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Mumbai,school,Mumbai Public School 4,sensitive_receptor,19.09762,72.90503,144.0,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Mumbai,school,Mumbai Public School 5,sensitive_receptor,19.08696,72.7959,151.8,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Mumbai,hospital,Mumbai General Hospital 1,sensitive_receptor,19.06618,72.95979,185.8,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Mumbai,hospital,Mumbai General Hospital 2,sensitive_receptor,19.03559,72.88242,167.0,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Mumbai,hospital,Mumbai General Hospital 3,sensitive_receptor,19.06787,72.94612,158.9,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Mumbai,hospital,Mumbai General Hospital 4,sensitive_receptor,19.12978,72.79095,146.0,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Mumbai,traffic,Traffic Congestion Point,traffic,19.03633,72.80207,,,,Traffic,,,,24.0
+Mumbai,traffic,Traffic Congestion Point,traffic,19.09804,72.85178,,,,Traffic,,,,5.0
+Mumbai,traffic,Traffic Congestion Point,traffic,19.17332,72.88166,,,,Traffic,,,,42.7
+Mumbai,traffic,Traffic Congestion Point,traffic,19.03572,72.83808,,,,Traffic,,,,27.1
+Mumbai,traffic,Traffic Congestion Point,traffic,19.1785,72.78117,,,,Traffic,,,,79.9
+Mumbai,traffic,Traffic Congestion Point,traffic,19.12482,72.88073,,,,Traffic,,,,31.1
+Mumbai,traffic,Traffic Congestion Point,traffic,19.18625,72.80909,,,,Traffic,,,,20.2
+Mumbai,traffic,Traffic Congestion Point,traffic,18.98441,72.78231,,,,Traffic,,,,36.4
+Mumbai,traffic,Traffic Congestion Point,traffic,19.17148,72.83978,,,,Traffic,,,,45.5
+Mumbai,traffic,Traffic Congestion Point,traffic,19.09263,72.96628,,,,Traffic,,,,56.9
+Mumbai,traffic,Traffic Congestion Point,traffic,19.06923,72.84003,,,,Traffic,,,,17.1
+Mumbai,traffic,Traffic Congestion Point,traffic,19.09101,72.9002,,,,Traffic,,,,53.0
+Mumbai,traffic,Traffic Congestion Point,traffic,19.10396,72.81123,,,,Traffic,,,,14.2
+Mumbai,traffic,Traffic Congestion Point,traffic,19.00459,72.84269,,,,Traffic,,,,25.4
+Mumbai,traffic,Traffic Congestion Point,traffic,19.19952,72.87529,,,,Traffic,,,,33.5
+Mumbai,traffic,Traffic Congestion Point,traffic,19.06992,72.96573,,,,Traffic,,,,43.7
+Mumbai,traffic,Traffic Congestion Point,traffic,19.12988,72.94732,,,,Traffic,,,,16.6
+Mumbai,traffic,Traffic Congestion Point,traffic,19.10041,72.8437,,,,Traffic,,,,18.4
+Mumbai,traffic,Traffic Congestion Point,traffic,19.12399,72.77055,,,,Traffic,,,,39.6
+Mumbai,traffic,Traffic Congestion Point,traffic,18.97374,72.96889,,,,Traffic,,,,20.2
+Mumbai,traffic,Traffic Congestion Point,traffic,18.9993,72.8463,,,,Traffic,,,,28.5
+Mumbai,traffic,Traffic Congestion Point,traffic,19.15388,72.96223,,,,Traffic,,,,38.1
+Mumbai,traffic,Traffic Congestion Point,traffic,19.02821,72.90066,,,,Traffic,,,,6.8
+Mumbai,traffic,Traffic Congestion Point,traffic,19.10827,72.88804,,,,Traffic,,,,65.4
+Mumbai,traffic,Traffic Congestion Point,traffic,19.08428,72.76502,,,,Traffic,,,,89.2
+Chennai,hotspot,Manali,traffic_hub,13.12532,80.19738,302.8,198.0,278.3,Secondary/Photochemical,0.89,Monitor VOC and NOx precursor emissions from nearby mixed sources,Very Poor,
+Chennai,hotspot,Ambattur,industrial,12.98008,80.28608,298.0,182.7,282.5,Crop/Biomass Burning,0.94,Alert district agriculture office to deploy Happy Seeders / bio-decomposer,Poor,
+Chennai,hotspot,T Nagar,mixed,13.06267,80.33051,212.1,139.5,215.1,Traffic,0.88,Synchronize traffic signals to reduce idling emissions,Poor,
+Chennai,hotspot,Guindy,residential,13.04806,80.21072,262.5,167.7,226.5,Industrial,0.8,Mandate shift to piped natural gas from coal/furnace oil,Poor,
+Chennai,hotspot,Perungudi,construction,13.09703,80.31396,232.3,139.3,218.4,Secondary/Photochemical,0.98,Increase green cover / urban forestry to aid pollutant dispersion,Poor,
+Chennai,hotspot,Royapuram,green_belt,12.99563,80.3456,229.8,140.5,206.7,Secondary/Photochemical,0.78,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Chennai,hotspot,Anna Nagar,traffic_hub,13.16408,80.27484,237.6,143.8,217.3,Construction/Dust,0.92,Issue stop-work notice until dust suppression (water sprinkling) is installed,Poor,
+Chennai,hotspot,Tondiarpet,industrial,12.99784,80.25189,242.3,149.8,231.0,Secondary/Photochemical,0.9,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Chennai,hotspot,Sriperumbudur Rd,mixed,13.1735,80.21531,226.3,146.6,201.2,Industrial,0.74,Flag unit for CPCB show-cause notice if emissions exceed norms,Poor,
+Chennai,hotspot,Adyar,residential,13.01187,80.37214,182.4,108.3,166.2,Traffic,0.82,Deploy traffic police for congestion smoothing during peak hours,Moderate,
+Chennai,hotspot,Kolathur,construction,13.06011,80.25459,253.2,154.3,211.7,Secondary/Photochemical,0.69,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Chennai,hotspot,Alandur,mixed,13.14332,80.26042,279.0,160.5,244.2,Industrial,0.71,Conduct stack emission audit; verify online continuous emission monitors,Poor,
+Chennai,monitoring_station,CAAQMS Station 1,sensor,12.97233,80.33654,235.8,149.3,214.0,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,monitoring_station,CAAQMS Station 2,sensor,13.08961,80.34889,217.4,140.9,183.8,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,monitoring_station,CAAQMS Station 3,sensor,13.00369,80.27213,241.3,139.4,232.1,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,monitoring_station,CAAQMS Station 4,sensor,13.10076,80.37144,296.3,186.4,285.1,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,monitoring_station,CAAQMS Station 5,sensor,13.20299,80.38625,244.5,149.9,214.3,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,monitoring_station,CAAQMS Station 6,sensor,13.03694,80.1633,282.2,179.6,262.9,—,,Live continuous ambient air quality monitoring station,Poor,
+Chennai,industrial,Chennai Industrial Estate 1,industrial,13.14388,80.39389,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Chennai,industrial,Chennai Industrial Estate 2,industrial,13.12013,80.22146,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Chennai,industrial,Chennai Industrial Estate 3,industrial,13.18023,80.22962,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Chennai,industrial,Chennai Industrial Estate 4,industrial,12.94297,80.3699,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Chennai,construction,Active Construction Site 1,construction,13.04555,80.33642,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Chennai,construction,Active Construction Site 2,construction,13.04976,80.35736,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Chennai,construction,Active Construction Site 3,construction,13.01538,80.38459,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Chennai,construction,Active Construction Site 4,construction,13.14984,80.17812,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Chennai,construction,Active Construction Site 5,construction,13.09849,80.38719,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Chennai,school,Chennai Public School 1,sensitive_receptor,13.07691,80.20712,249.4,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Chennai,school,Chennai Public School 2,sensitive_receptor,13.07966,80.27319,249.4,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Chennai,school,Chennai Public School 3,sensitive_receptor,13.06321,80.2143,254.1,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Chennai,school,Chennai Public School 4,sensitive_receptor,13.11171,80.25504,255.2,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Chennai,school,Chennai Public School 5,sensitive_receptor,13.14722,80.27663,256.5,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Chennai,hospital,Chennai General Hospital 1,sensitive_receptor,13.14571,80.27032,223.9,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Chennai,hospital,Chennai General Hospital 2,sensitive_receptor,13.08219,80.31474,210.7,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Chennai,hospital,Chennai General Hospital 3,sensitive_receptor,13.00402,80.1987,205.2,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Chennai,hospital,Chennai General Hospital 4,sensitive_receptor,13.12914,80.22085,204.9,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Chennai,traffic,Traffic Congestion Point,traffic,13.11731,80.26921,,,,Traffic,,,,54.4
+Chennai,traffic,Traffic Congestion Point,traffic,13.06243,80.23271,,,,Traffic,,,,44.6
+Chennai,traffic,Traffic Congestion Point,traffic,13.06637,80.37873,,,,Traffic,,,,32.3
+Chennai,traffic,Traffic Congestion Point,traffic,13.20076,80.1758,,,,Traffic,,,,9.9
+Chennai,traffic,Traffic Congestion Point,traffic,13.1715,80.36077,,,,Traffic,,,,11.7
+Chennai,traffic,Traffic Congestion Point,traffic,13.06003,80.32398,,,,Traffic,,,,7.8
+Chennai,traffic,Traffic Congestion Point,traffic,12.95331,80.3923,,,,Traffic,,,,64.5
+Chennai,traffic,Traffic Congestion Point,traffic,13.13225,80.27624,,,,Traffic,,,,33.7
+Chennai,traffic,Traffic Congestion Point,traffic,13.11838,80.39565,,,,Traffic,,,,33.4
+Chennai,traffic,Traffic Congestion Point,traffic,13.12688,80.15218,,,,Traffic,,,,5.1
+Chennai,traffic,Traffic Congestion Point,traffic,13.14277,80.19078,,,,Traffic,,,,50.8
+Chennai,traffic,Traffic Congestion Point,traffic,12.96697,80.25904,,,,Traffic,,,,66.2
+Chennai,traffic,Traffic Congestion Point,traffic,13.09848,80.26578,,,,Traffic,,,,27.4
+Chennai,traffic,Traffic Congestion Point,traffic,13.10153,80.34973,,,,Traffic,,,,62.7
+Chennai,traffic,Traffic Congestion Point,traffic,13.06367,80.36863,,,,Traffic,,,,5.0
+Chennai,traffic,Traffic Congestion Point,traffic,12.97091,80.14317,,,,Traffic,,,,5.5
+Chennai,traffic,Traffic Congestion Point,traffic,13.05625,80.16454,,,,Traffic,,,,12.6
+Chennai,traffic,Traffic Congestion Point,traffic,13.0742,80.21792,,,,Traffic,,,,32.6
+Chennai,traffic,Traffic Congestion Point,traffic,13.18939,80.15243,,,,Traffic,,,,77.3
+Chennai,traffic,Traffic Congestion Point,traffic,13.16018,80.20804,,,,Traffic,,,,23.8
+Chennai,traffic,Traffic Congestion Point,traffic,13.14597,80.1576,,,,Traffic,,,,49.8
+Chennai,traffic,Traffic Congestion Point,traffic,12.98399,80.15291,,,,Traffic,,,,42.2
+Chennai,traffic,Traffic Congestion Point,traffic,13.00894,80.27545,,,,Traffic,,,,76.5
+Chennai,traffic,Traffic Congestion Point,traffic,13.08041,80.39975,,,,Traffic,,,,18.8
+Chennai,traffic,Traffic Congestion Point,traffic,12.96176,80.37338,,,,Traffic,,,,69.1
+Bangalore,hotspot,Peenya,traffic_hub,12.87136,77.67208,191.5,121.7,174.1,Traffic,0.74,Synchronize traffic signals to reduce idling emissions,Moderate,
+Bangalore,hotspot,Whitefield,industrial,13.01466,77.49533,266.3,170.6,245.4,Industrial,0.98,Mandate shift to piped natural gas from coal/furnace oil,Poor,
+Bangalore,hotspot,Silk Board,mixed,13.02306,77.59928,225.9,136.2,203.1,Secondary/Photochemical,0.78,Issue public health advisory for outdoor exertion during midday peak,Poor,
+Bangalore,hotspot,Electronic City,residential,13.01123,77.62069,143.9,88.2,133.9,Secondary/Photochemical,0.93,Monitor VOC and NOx precursor emissions from nearby mixed sources,Moderate,
+Bangalore,hotspot,Yeshwanthpur,construction,12.98396,77.65106,188.6,120.9,154.6,Construction/Dust,0.79,Issue stop-work notice until dust suppression (water sprinkling) is installed,Moderate,
+Bangalore,hotspot,Hebbal,green_belt,12.88514,77.65203,121.3,74.7,114.4,Crop/Biomass Burning,0.87,Alert district agriculture office to deploy Happy Seeders / bio-decomposer,Moderate,
+Bangalore,hotspot,Jayanagar,traffic_hub,12.89983,77.65419,228.7,144.8,204.4,Secondary/Photochemical,0.8,Increase green cover / urban forestry to aid pollutant dispersion,Poor,
+Bangalore,hotspot,Bommanahalli,industrial,12.87166,77.67634,296.8,186.2,267.8,Secondary/Photochemical,0.81,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Bangalore,hotspot,KR Puram,mixed,12.86183,77.51957,126.0,78.6,127.5,Industrial,0.77,Flag unit for CPCB show-cause notice if emissions exceed norms,Moderate,
+Bangalore,hotspot,Rajajinagar,residential,12.91221,77.51349,207.9,131.5,193.7,Secondary/Photochemical,0.79,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Bangalore,hotspot,Marathahalli,construction,13.0583,77.53519,271.4,168.7,247.4,Construction/Dust,0.91,Inspect for Construction & Demolition waste management compliance,Poor,
+Bangalore,hotspot,Indiranagar,mixed,12.90242,77.6757,185.2,118.2,174.9,Secondary/Photochemical,0.88,Issue public health advisory for outdoor exertion during midday peak,Moderate,
+Bangalore,monitoring_station,CAAQMS Station 1,sensor,13.09315,77.51282,250.4,165.1,245.3,—,,Live continuous ambient air quality monitoring station,Poor,
+Bangalore,monitoring_station,CAAQMS Station 2,sensor,12.90596,77.60979,174.2,105.2,147.0,—,,Live continuous ambient air quality monitoring station,Moderate,
+Bangalore,monitoring_station,CAAQMS Station 3,sensor,12.99507,77.57724,243.4,162.7,220.1,—,,Live continuous ambient air quality monitoring station,Poor,
+Bangalore,monitoring_station,CAAQMS Station 4,sensor,12.94444,77.71802,233.3,152.3,217.2,—,,Live continuous ambient air quality monitoring station,Poor,
+Bangalore,monitoring_station,CAAQMS Station 5,sensor,13.03638,77.50254,216.0,134.9,189.6,—,,Live continuous ambient air quality monitoring station,Poor,
+Bangalore,monitoring_station,CAAQMS Station 6,sensor,12.84638,77.59001,172.8,100.3,159.6,—,,Live continuous ambient air quality monitoring station,Moderate,
+Bangalore,industrial,Bangalore Industrial Estate 1,industrial,13.08636,77.46935,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Bangalore,industrial,Bangalore Industrial Estate 2,industrial,13.06895,77.55194,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Bangalore,industrial,Bangalore Industrial Estate 3,industrial,12.91823,77.73784,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Bangalore,industrial,Bangalore Industrial Estate 4,industrial,12.88186,77.65256,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Bangalore,construction,Active Construction Site 1,construction,13.04875,77.48448,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Bangalore,construction,Active Construction Site 2,construction,13.01249,77.70297,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Bangalore,construction,Active Construction Site 3,construction,12.88141,77.68969,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Bangalore,construction,Active Construction Site 4,construction,12.99435,77.62259,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Bangalore,construction,Active Construction Site 5,construction,12.99871,77.54632,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Bangalore,school,Bangalore Public School 1,sensitive_receptor,13.05864,77.68407,177.7,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Bangalore,school,Bangalore Public School 2,sensitive_receptor,12.99666,77.65128,188.8,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Bangalore,school,Bangalore Public School 3,sensitive_receptor,13.00376,77.6052,257.5,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Bangalore,school,Bangalore Public School 4,sensitive_receptor,12.9911,77.65137,182.7,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Bangalore,school,Bangalore Public School 5,sensitive_receptor,12.9044,77.58232,196.6,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Bangalore,hospital,Bangalore General Hospital 1,sensitive_receptor,13.01657,77.61326,189.7,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Bangalore,hospital,Bangalore General Hospital 2,sensitive_receptor,12.99475,77.5604,251.3,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Bangalore,hospital,Bangalore General Hospital 3,sensitive_receptor,12.96564,77.64346,192.5,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Bangalore,hospital,Bangalore General Hospital 4,sensitive_receptor,12.88033,77.52693,223.3,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Bangalore,traffic,Traffic Congestion Point,traffic,12.84702,77.63445,,,,Traffic,,,,81.3
+Bangalore,traffic,Traffic Congestion Point,traffic,12.94645,77.52195,,,,Traffic,,,,18.0
+Bangalore,traffic,Traffic Congestion Point,traffic,13.0914,77.57274,,,,Traffic,,,,31.9
+Bangalore,traffic,Traffic Congestion Point,traffic,12.97286,77.60586,,,,Traffic,,,,69.5
+Bangalore,traffic,Traffic Congestion Point,traffic,12.99921,77.62001,,,,Traffic,,,,34.0
+Bangalore,traffic,Traffic Congestion Point,traffic,12.93498,77.5644,,,,Traffic,,,,61.0
+Bangalore,traffic,Traffic Congestion Point,traffic,12.94698,77.62108,,,,Traffic,,,,7.1
+Bangalore,traffic,Traffic Congestion Point,traffic,12.85957,77.57826,,,,Traffic,,,,48.5
+Bangalore,traffic,Traffic Congestion Point,traffic,13.01388,77.48937,,,,Traffic,,,,8.9
+Bangalore,traffic,Traffic Congestion Point,traffic,12.84395,77.61759,,,,Traffic,,,,5.1
+Bangalore,traffic,Traffic Congestion Point,traffic,13.07136,77.57953,,,,Traffic,,,,63.6
+Bangalore,traffic,Traffic Congestion Point,traffic,12.95845,77.61745,,,,Traffic,,,,35.8
+Bangalore,traffic,Traffic Congestion Point,traffic,12.98031,77.66787,,,,Traffic,,,,14.3
+Bangalore,traffic,Traffic Congestion Point,traffic,12.98198,77.47349,,,,Traffic,,,,12.1
+Bangalore,traffic,Traffic Congestion Point,traffic,12.86846,77.61661,,,,Traffic,,,,10.9
+Bangalore,traffic,Traffic Congestion Point,traffic,12.84612,77.54861,,,,Traffic,,,,34.2
+Bangalore,traffic,Traffic Congestion Point,traffic,12.93069,77.60298,,,,Traffic,,,,19.9
+Bangalore,traffic,Traffic Congestion Point,traffic,12.8822,77.52559,,,,Traffic,,,,37.0
+Bangalore,traffic,Traffic Congestion Point,traffic,13.0664,77.66442,,,,Traffic,,,,46.1
+Bangalore,traffic,Traffic Congestion Point,traffic,13.08623,77.67958,,,,Traffic,,,,30.4
+Bangalore,traffic,Traffic Congestion Point,traffic,12.99889,77.54731,,,,Traffic,,,,29.6
+Bangalore,traffic,Traffic Congestion Point,traffic,13.01073,77.66355,,,,Traffic,,,,27.0
+Bangalore,traffic,Traffic Congestion Point,traffic,12.92407,77.69051,,,,Traffic,,,,21.5
+Bangalore,traffic,Traffic Congestion Point,traffic,13.00545,77.62316,,,,Traffic,,,,5.0
+Bangalore,traffic,Traffic Congestion Point,traffic,12.98348,77.58015,,,,Traffic,,,,42.7
+Kolkata,hotspot,Howrah,traffic_hub,22.5727,88.37322,259.3,153.7,237.0,Secondary/Photochemical,0.67,Monitor VOC and NOx precursor emissions from nearby mixed sources,Poor,
+Kolkata,hotspot,Dhapa,industrial,22.64146,88.41189,257.3,161.9,234.8,Secondary/Photochemical,0.87,Increase green cover / urban forestry to aid pollutant dispersion,Poor,
+Kolkata,hotspot,Salt Lake,mixed,22.59842,88.36898,233.1,149.2,206.2,Crop/Biomass Burning,0.83,Coordinate inter-state stubble-burning advisory with neighbouring districts,Poor,
+Kolkata,hotspot,Park Circus,residential,22.52258,88.34488,230.4,137.0,213.0,Traffic,0.7,Synchronize traffic signals to reduce idling emissions,Poor,
+Kolkata,hotspot,Behala,construction,22.63715,88.29465,222.3,136.9,199.9,Secondary/Photochemical,0.92,Issue public health advisory for outdoor exertion during midday peak,Poor,
+Kolkata,hotspot,Ultadanga,green_belt,22.67191,88.38625,176.2,111.6,167.1,Secondary/Photochemical,0.7,Increase green cover / urban forestry to aid pollutant dispersion,Moderate,
+Kolkata,hotspot,Kasba,traffic_hub,22.6619,88.42329,226.1,133.8,215.0,Construction/Dust,0.86,Inspect for Construction & Demolition waste management compliance,Poor,
+Kolkata,hotspot,Jadavpur,industrial,22.48362,88.39115,224.6,141.1,212.9,Industrial,0.86,Mandate shift to piped natural gas from coal/furnace oil,Poor,
+Kolkata,hotspot,Dum Dum,mixed,22.50186,88.3226,250.7,148.3,238.0,Traffic,0.7,Deploy traffic police for congestion smoothing during peak hours,Poor,
+Kolkata,hotspot,Tangra,residential,22.67991,88.28392,160.9,88.3,157.8,Secondary/Photochemical,0.92,Monitor VOC and NOx precursor emissions from nearby mixed sources,Moderate,
+Kolkata,hotspot,Garia,construction,22.64272,88.38661,257.0,160.9,244.6,Construction/Dust,0.7,Inspect for Construction & Demolition waste management compliance,Poor,
+Kolkata,hotspot,Belgachia,mixed,22.54333,88.32948,274.5,168.9,247.3,Industrial,0.84,Conduct stack emission audit; verify online continuous emission monitors,Poor,
+Kolkata,monitoring_station,CAAQMS Station 1,sensor,22.59673,88.41073,221.3,128.0,188.6,—,,Live continuous ambient air quality monitoring station,Poor,
+Kolkata,monitoring_station,CAAQMS Station 2,sensor,22.70142,88.34995,177.9,115.5,145.7,—,,Live continuous ambient air quality monitoring station,Moderate,
+Kolkata,monitoring_station,CAAQMS Station 3,sensor,22.46568,88.48393,283.6,180.0,257.6,—,,Live continuous ambient air quality monitoring station,Poor,
+Kolkata,monitoring_station,CAAQMS Station 4,sensor,22.5525,88.44757,183.5,113.7,172.7,—,,Live continuous ambient air quality monitoring station,Moderate,
+Kolkata,monitoring_station,CAAQMS Station 5,sensor,22.54206,88.26506,265.7,169.3,252.2,—,,Live continuous ambient air quality monitoring station,Poor,
+Kolkata,monitoring_station,CAAQMS Station 6,sensor,22.46676,88.30073,184.9,117.2,173.5,—,,Live continuous ambient air quality monitoring station,Moderate,
+Kolkata,industrial,Kolkata Industrial Estate 1,industrial,22.60515,88.36595,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Kolkata,industrial,Kolkata Industrial Estate 2,industrial,22.47039,88.23283,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Kolkata,industrial,Kolkata Industrial Estate 3,industrial,22.45789,88.28211,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Kolkata,industrial,Kolkata Industrial Estate 4,industrial,22.5251,88.32817,,,,Industrial,,Registered industrial zone — periodic stack emission audits required,,
+Kolkata,construction,Active Construction Site 1,construction,22.53572,88.30127,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Kolkata,construction,Active Construction Site 2,construction,22.57493,88.44197,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Kolkata,construction,Active Construction Site 3,construction,22.51973,88.47007,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Kolkata,construction,Active Construction Site 4,construction,22.6622,88.28272,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Kolkata,construction,Active Construction Site 5,construction,22.64131,88.3818,,,,Construction/Dust,,"Verify dust-mitigation compliance (sprinkling, netting, wheel-wash)",,
+Kolkata,school,Kolkata Public School 1,sensitive_receptor,22.58592,88.34211,168.2,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Moderate,
+Kolkata,school,Kolkata Public School 2,sensitive_receptor,22.58055,88.38949,231.8,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Kolkata,school,Kolkata Public School 3,sensitive_receptor,22.60746,88.3704,213.5,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Kolkata,school,Kolkata Public School 4,sensitive_receptor,22.515,88.42765,242.0,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Kolkata,school,Kolkata Public School 5,sensitive_receptor,22.53711,88.26848,220.3,,,—,,Sensitive receptor — recommend indoor recess when nearby AQI > 200,Poor,
+Kolkata,hospital,Kolkata General Hospital 1,sensitive_receptor,22.66406,88.37851,217.5,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Kolkata,hospital,Kolkata General Hospital 2,sensitive_receptor,22.65915,88.37893,181.9,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Moderate,
+Kolkata,hospital,Kolkata General Hospital 3,sensitive_receptor,22.59387,88.29174,225.7,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Kolkata,hospital,Kolkata General Hospital 4,sensitive_receptor,22.65225,88.42977,238.3,,,—,,Sensitive receptor — respiratory admissions correlate with nearby AQI spikes,Poor,
+Kolkata,traffic,Traffic Congestion Point,traffic,22.65715,88.40714,,,,Traffic,,,,25.1
+Kolkata,traffic,Traffic Congestion Point,traffic,22.46339,88.43585,,,,Traffic,,,,47.9
+Kolkata,traffic,Traffic Congestion Point,traffic,22.66398,88.23399,,,,Traffic,,,,42.9
+Kolkata,traffic,Traffic Congestion Point,traffic,22.58935,88.28376,,,,Traffic,,,,63.4
+Kolkata,traffic,Traffic Congestion Point,traffic,22.51991,88.34579,,,,Traffic,,,,17.4
+Kolkata,traffic,Traffic Congestion Point,traffic,22.60329,88.39853,,,,Traffic,,,,35.3
+Kolkata,traffic,Traffic Congestion Point,traffic,22.61309,88.45438,,,,Traffic,,,,43.9
+Kolkata,traffic,Traffic Congestion Point,traffic,22.5347,88.37053,,,,Traffic,,,,15.8
+Kolkata,traffic,Traffic Congestion Point,traffic,22.50723,88.26869,,,,Traffic,,,,66.4
+Kolkata,traffic,Traffic Congestion Point,traffic,22.49192,88.39483,,,,Traffic,,,,62.2
+Kolkata,traffic,Traffic Congestion Point,traffic,22.4594,88.24498,,,,Traffic,,,,21.5
+Kolkata,traffic,Traffic Congestion Point,traffic,22.51177,88.2727,,,,Traffic,,,,71.6
+Kolkata,traffic,Traffic Congestion Point,traffic,22.66609,88.33592,,,,Traffic,,,,55.8
+Kolkata,traffic,Traffic Congestion Point,traffic,22.46247,88.30654,,,,Traffic,,,,34.7
+Kolkata,traffic,Traffic Congestion Point,traffic,22.57142,88.33435,,,,Traffic,,,,14.5
+Kolkata,traffic,Traffic Congestion Point,traffic,22.67204,88.26138,,,,Traffic,,,,34.3
+Kolkata,traffic,Traffic Congestion Point,traffic,22.63661,88.40525,,,,Traffic,,,,34.9
+Kolkata,traffic,Traffic Congestion Point,traffic,22.54337,88.35401,,,,Traffic,,,,47.7
+Kolkata,traffic,Traffic Congestion Point,traffic,22.46047,88.34422,,,,Traffic,,,,53.1
+Kolkata,traffic,Traffic Congestion Point,traffic,22.50184,88.48766,,,,Traffic,,,,34.7
+Kolkata,traffic,Traffic Congestion Point,traffic,22.56695,88.46681,,,,Traffic,,,,28.7
+Kolkata,traffic,Traffic Congestion Point,traffic,22.56896,88.47318,,,,Traffic,,,,67.1
+Kolkata,traffic,Traffic Congestion Point,traffic,22.47141,88.38952,,,,Traffic,,,,46.5
+Kolkata,traffic,Traffic Congestion Point,traffic,22.48516,88.30509,,,,Traffic,,,,35.2
+Kolkata,traffic,Traffic Congestion Point,traffic,22.70063,88.40848,,,,Traffic,,,,57.1
